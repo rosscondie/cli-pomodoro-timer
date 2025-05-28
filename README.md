@@ -34,7 +34,7 @@ Their script provided the foundation, which I tweaked to add the audio and custo
    ```
 2. **Clone the Repository:**
    ```bash
-   git clone https://github.com/<your-username>/cli-pomodoro-timer.git
+   git clone https://github.com/rosscondie/cli-pomodoro-timer.git
    cd cli-pomodoro-timer
    ```
 3. **Make the Script Executable:**

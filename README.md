@@ -1,5 +1,7 @@
 # Pomodoro Terminal Timer
 
+![Pomodoro Timer Screenshot](./images/pomodoro-screenshot.png)
+
 A simple terminal-based Pomodoro timer written in Bash, using a clean timer and audio alert via `aplay`. This script supports work and break sessions with customizable durations and colorful output, designed for Windows (via WSL2) and Linux users.
 
 ## Acknowledgements

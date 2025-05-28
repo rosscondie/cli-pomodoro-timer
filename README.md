@@ -27,7 +27,7 @@ Their script provided the foundation, which I tweaked to add the audio and custo
 ## Installation
 
 1. **Install Dependencies:**
-   Update your package manager and install `alsa-utils`, `tmux` (for `timer`), and `lolcat` (optional):
+   Update your package manager and install `alsa-utils`, `timer` (follow the instructions in the requirements) and `lolcat` (optional):
    ```bash
    sudo apt update
    sudo apt install alsa-utils lolcat

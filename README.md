@@ -29,14 +29,14 @@ Their script provided the foundation, which I tweaked to add the audio and custo
 ## Installation
 
 1. **Install Dependencies:**
-   Update your package manager and install `alsa-utils`, `tmux` (for `timer`), and `lolcat` (optional):
+   Update your package manager and install `alsa-utils`, `timer` (follow the instructions in the requirements) and `lolcat` (optional):
    ```bash
    sudo apt update
    sudo apt install alsa-utils lolcat
    ```
 2. **Clone the Repository:**
    ```bash
-   git clone https://github.com/<your-username>/cli-pomodoro-timer.git
+   git clone https://github.com/rosscondie/cli-pomodoro-timer.git
    cd cli-pomodoro-timer
    ```
 3. **Make the Script Executable:**

@@ -1,6 +1,6 @@
 # Pomodoro Terminal Timer 🍅
 
-![Pomodoro Timer Screenshot](./images/pomodoro-screenshot.png)
+![Pomodoro Timer Screenshot](./images/pomodoro-timer.png)
 
 A simple terminal-based Pomodoro timer written in Bash, using a clean timer and audio alert via `aplay` or `afplay`. 
 

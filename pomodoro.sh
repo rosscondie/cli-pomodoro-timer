@@ -9,20 +9,22 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SOUND_FILE="$SCRIPT_DIR/alert.wav"
 
 play_sound() {
-  if command -v aplay &>/dev/null; then
-    aplay "$SOUND_FILE" &>/dev/null
-  else
-    echo "aplay not found, cannot play sound."
-  fi
+    if command -v afplay &>/dev/null; then
+        afplay "$SOUND_FILE" &>/dev/null
+    elif command -v aplay &>/dev/null; then 
+        aplay "$SOUND_FILE" &>/dev/null; 
+    else
+        echo "sound player not found, cannot play sound."
+    fi
 }
 
 pomodoro () {
-  if [ -n "$1" -a -n "${pomo_options["$1"]}" ]; then
-    val=$1
-    duration=${2:-${pomo_options["$val"]}}  # Use second arg if provided
-    echo "$val for $duration minutes" | lolcat
-    timer "${duration}m"
-    play_sound
-    echo "🔔 $val session done!" | lolcat
-fi
+    if [ -n "$1" -a -n "${pomo_options["$1"]}" ]; then
+        val=$1
+        duration=${2:-${pomo_options["$val"]}}  # Use second arg if provided
+        echo "$val for $duration minutes 🍅" | lolcat
+        timer "${duration}m"
+        play_sound
+        echo "🔔 $val session done!" | lolcat
+    fi
 }

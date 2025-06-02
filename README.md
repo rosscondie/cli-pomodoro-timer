@@ -120,7 +120,10 @@ Start a break session (10 minutes by default):
 br
 ```
 
-Specify a custom duration (e.g. 25-minute work session):
+Specify a custom duration (e.g. 25m work session or 5m break session):
 ```bash
 wo 25
+
+# for the break session
+br 5
 ```

@@ -31,7 +31,7 @@ SOUND_FILE="$SCRIPT_DIR/your-custom-sound.wav"
 
 ## 🔧 Requirements
 
-- **Bash** (pre-installed on Linux and WSL2)
+- **Bash or Zsh** (bash comes pre-installed on Linux and WSL2)
 - **`timer`** by [caarlos0](https://github.com/caarlos0/timer)
 - **`aplay` or `afplay`** (via `alsa-utils` for playing the alert sound)
 - **`lolcat`** for colorful output (optional)
